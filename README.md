@@ -50,7 +50,7 @@ The `getFibonacci` function calculates the nth Fibonacci number using an iterati
 ### Example Request:
 
 ```
-GET /api/fibonacci/10
+GET /api/fibonacci/11
 ```
 
 ### Example Response:

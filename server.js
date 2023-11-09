@@ -9,7 +9,6 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/:assignment/:value', async (req, res) => {
-    console.log(req.params)
     let response = {}
     if (req.params.assignment == 'fibonacci') {
         response = assignment.getFibonacci(parseInt(req.params.value))

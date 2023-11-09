@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "f2c43bdd-8d42-45c1-af94-61213ec6d1de",
+		"name": "Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fibonacci",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/fibonacci/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"fibonacci",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Balanced String",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/balancedstring/cabbacc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"balancedstring",
+						"cabbacc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Migrate Rings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/migraterings/5?plate1=A&plate2=B&plate3=C",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"migraterings",
+						"5"
+					],
+					"query": [
+						{
+							"key": "plate1",
+							"value": "A"
+						},
+						{
+							"key": "plate2",
+							"value": "B"
+						},
+						{
+							"key": "plate3",
+							"value": "C"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

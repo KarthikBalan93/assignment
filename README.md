@@ -6,8 +6,8 @@ This repository contains solutions to three programming problems: calculating th
 
 1. **Clone this repository:**
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone [<repository-url>](https://github.com/KarthikBalan93/assignment.git)
+   cd assignment
    ```
 
 2. **Install dependencies:**
